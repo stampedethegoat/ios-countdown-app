@@ -12,8 +12,6 @@
 		02BA678B21F7667500D48C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BA678921F7667500D48C9A /* Main.storyboard */; };
 		02BA678D21F7667600D48C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BA678C21F7667600D48C9A /* Assets.xcassets */; };
 		02BA679021F7667600D48C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BA678E21F7667600D48C9A /* LaunchScreen.storyboard */; };
-		02BA679B21F7667600D48C9A /* countdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA679A21F7667600D48C9A /* countdownTests.swift */; };
-		02BA67A621F7667600D48C9A /* countdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BA67A521F7667600D48C9A /* countdownUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		02BA678F21F7667600D48C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02BA679121F7667600D48C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02BA679621F7667600D48C9A /* countdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = countdownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02BA679A21F7667600D48C9A /* countdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countdownTests.swift; sourceTree = "<group>"; };
-		02BA679C21F7667600D48C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02BA67A121F7667600D48C9A /* countdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = countdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02BA67A521F7667600D48C9A /* countdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countdownUITests.swift; sourceTree = "<group>"; };
-		02BA67A721F7667600D48C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				02BA678421F7667500D48C9A /* countdown */,
-				02BA679921F7667600D48C9A /* countdownTests */,
-				02BA67A421F7667600D48C9A /* countdownUITests */,
 				02BA678321F7667500D48C9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				02BA679121F7667600D48C9A /* Info.plist */,
 			);
 			path = countdown;
-			sourceTree = "<group>";
-		};
-		02BA679921F7667600D48C9A /* countdownTests */ = {
-			isa = PBXGroup;
-			children = (
-				02BA679A21F7667600D48C9A /* countdownTests.swift */,
-				02BA679C21F7667600D48C9A /* Info.plist */,
-			);
-			path = countdownTests;
-			sourceTree = "<group>";
-		};
-		02BA67A421F7667600D48C9A /* countdownUITests */ = {
-			isa = PBXGroup;
-			children = (
-				02BA67A521F7667600D48C9A /* countdownUITests.swift */,
-				02BA67A721F7667600D48C9A /* Info.plist */,
-			);
-			path = countdownUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02BA679B21F7667600D48C9A /* countdownTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02BA67A621F7667600D48C9A /* countdownUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +404,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95WPV9DSGE;
 				INFOPLIST_FILE = countdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +414,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ben-basuni.countdown";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,7 +424,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95WPV9DSGE;
 				INFOPLIST_FILE = countdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +434,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ben-basuni.countdown";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
