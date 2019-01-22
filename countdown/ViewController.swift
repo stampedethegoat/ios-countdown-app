@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         newYorkLabel.textAlignment = .center;
 
         // Set the Label's text to the Arith
-        debtFreeLabel.text = String (daysTilDebtFree);
-        newYorkLabel.text = String (daysTilnewYork);
+        debtFreeLabel.text = String (daysTilDebtFree) + " days until Zero Debt";
+        newYorkLabel.text = String (daysTilnewYork) + " days until New York";
     }
 }

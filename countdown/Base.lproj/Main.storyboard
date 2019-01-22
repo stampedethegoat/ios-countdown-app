@@ -18,26 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Debt Free Countdown" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g04-pK-Ru8">
-                                <rect key="frame" x="103" y="463" width="168" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="New York Countdown" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tny-hq-gXZ">
-                                <rect key="frame" x="103" y="270" width="168" height="21"/>
+                                <rect key="frame" x="26" y="223" width="333" height="78"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Days until New York" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SzH-Kv-LLe">
-                                <rect key="frame" x="111" y="211" width="152" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days until Zero Debt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSu-ey-9Hb">
-                                <rect key="frame" x="109" y="405" width="157" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Debt Free Countdown" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g04-pK-Ru8">
+                                <rect key="frame" x="26" y="381" width="333" height="88"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -45,17 +33,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Tny-hq-gXZ" firstAttribute="leading" secondItem="g04-pK-Ru8" secondAttribute="leading" id="4v5-yb-C60"/>
-                            <constraint firstItem="SzH-Kv-LLe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5jv-va-4Bm"/>
-                            <constraint firstItem="Tny-hq-gXZ" firstAttribute="top" secondItem="SzH-Kv-LLe" secondAttribute="bottom" constant="38" id="5uQ-mx-0Mv"/>
-                            <constraint firstItem="MSu-ey-9Hb" firstAttribute="centerX" secondItem="g04-pK-Ru8" secondAttribute="centerX" id="8Ly-fU-DDe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="g04-pK-Ru8" secondAttribute="bottom" constant="183" id="RPN-lm-fTl"/>
-                            <constraint firstItem="Tny-hq-gXZ" firstAttribute="trailing" secondItem="g04-pK-Ru8" secondAttribute="trailing" id="U6E-Le-3vV"/>
-                            <constraint firstItem="SzH-Kv-LLe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="191" id="WVE-1R-vIa"/>
-                            <constraint firstItem="SzH-Kv-LLe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="111" id="XIS-sP-BQb"/>
-                            <constraint firstItem="Tny-hq-gXZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="fGI-DD-lm2"/>
-                            <constraint firstItem="SzH-Kv-LLe" firstAttribute="centerX" secondItem="Tny-hq-gXZ" secondAttribute="centerX" id="qWr-E6-sOP"/>
-                            <constraint firstItem="g04-pK-Ru8" firstAttribute="top" secondItem="MSu-ey-9Hb" secondAttribute="bottom" constant="37" id="tRy-jy-Wfs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="g04-pK-Ru8" secondAttribute="bottom" constant="198" id="88x-om-1wp"/>
+                            <constraint firstItem="Tny-hq-gXZ" firstAttribute="centerX" secondItem="g04-pK-Ru8" secondAttribute="centerX" id="Fxi-sf-1YO"/>
+                            <constraint firstItem="Tny-hq-gXZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="203" id="Nzz-6H-jsd"/>
+                            <constraint firstItem="Tny-hq-gXZ" firstAttribute="leading" secondItem="g04-pK-Ru8" secondAttribute="leading" id="hPI-bq-vLj"/>
+                            <constraint firstItem="g04-pK-Ru8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="5" id="puA-BX-6hK"/>
+                            <constraint firstItem="Tny-hq-gXZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="wKW-ft-DQv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
